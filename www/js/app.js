@@ -1,7 +1,7 @@
 (function (){
 
 
-    var app=angular.module('reddit', ['ionic']);
+    var app=angular.module('reddit', ['ionic','angularMoment']);
 
     app.controller('RedditCtrl', function($http,$scope){
       
