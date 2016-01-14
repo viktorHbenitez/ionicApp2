@@ -13,7 +13,7 @@
           angular.forEach(response.data.children, function(child){
 
               $scope.stories.push(child.data);
-              console.log(child.data);
+              //console.log(child.data);
 
           });
           
